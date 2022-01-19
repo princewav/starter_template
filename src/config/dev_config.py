@@ -12,4 +12,3 @@ class DevConfig(Config):
     LOG_FORMAT: str = (
         "[%(asctime)s | %(module)s:%(lineno)d | %(levelname)s] %(message)s"
     )
-
