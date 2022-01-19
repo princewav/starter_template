@@ -6,3 +6,4 @@ pre-commit install
 
 echo "Rendering README.md"
 python scripts/render_readme.py
+git commit -ma"rendered readme"
