@@ -1,3 +1,6 @@
+echo "Installing requirements"
+cd ..
 pip install -r requirements.txt
 
-pre-commit install
+echo "Installing pre-commit"
+pre-commit installcd
