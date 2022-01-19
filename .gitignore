@@ -386,4 +386,4 @@ venv
 mypy.ini
 pytest.ini
 .pre-commit-config.yaml
-signature_api/prototyping/
+prototyping/
