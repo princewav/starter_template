@@ -3,3 +3,6 @@ pip install -r requirements.txt
 
 echo "Installing pre-commit"
 pre-commit install
+
+echo "Rendering README.md"
+python scripts/render_readme.py

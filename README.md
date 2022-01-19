@@ -5,7 +5,6 @@
 <!-- required -->
 Description here
 
-
 <!-- required -->
 
 ## Table of Contents
@@ -20,7 +19,6 @@ Description here
 ## Documentation
 
 Documentation here
-
 
 <!-- required -->
 
