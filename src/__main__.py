@@ -1,5 +1,8 @@
+from .config import current_config as conf
+
+
 def main():
-    pass
+    print(f"{conf.DATA_PATH} -> Exists: {conf.DATA_PATH.exists()}")
 
 
 if __name__ == "__main__":

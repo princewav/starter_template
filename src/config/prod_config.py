@@ -1,5 +1,5 @@
-from .base_config import Config
+from . import DevConfig
 
 
-class ProdConfig(Config):
+class ProdConfig(DevConfig):
     ENV = "prod"

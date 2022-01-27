@@ -1,6 +1,5 @@
 from typing import Type
 
-from ..config.base_config import Config
 from .ci_config import CIConfig
 from .dev_config import DevConfig
 from .prod_config import ProdConfig
@@ -12,7 +11,7 @@ config = {
 }
 
 
-def load_current_config() -> Type[Config]:
+def load_current_config() -> Type[DevConfig]:
     import dotenv
     import os
 
